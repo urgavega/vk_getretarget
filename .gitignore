@@ -1,0 +1,8 @@
+*~
+*.bak
+*.swp
+_res/
+.idea/
+templates_c/
+temp/
+users/
