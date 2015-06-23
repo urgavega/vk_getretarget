@@ -1,0 +1,119 @@
+body {
+	margin-top:20px;
+	background-color:#464d50;
+	font-family:Tahoma;
+	font-size:14px;
+	color:#dddddd}
+
+
+.content {
+	width:800px;
+	margin:0 auto}
+
+
+.head {
+	background-color:#141414;
+	color:white;
+	padding:10px;
+	font-size:20px}
+
+
+.block {	background-color:white;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding:10px;
+	color:#656565;}
+
+
+
+.selectable .ui-widget-content.ui-selecting { background: #FECA40; box-shadow: 1px 1px 1px red, -1px -1px 1px red, 1px -1px 1px red, -1px 1px red; border:1px solid red}
+.selectable .ui-widget-content.ui-selected { background: #F39814; box-shadow: 1px 1px 1px red, -1px -1px 1px red, 1px -1px 1px red, -1px 1px red; border:1px solid red}
+.selectable {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 60%; }
+.selectable li {
+	margin: 3px;
+	padding: 0.4em;
+	font-size: 0.9em;
+	color:black;
+	display:block;
+	white-space:nowrap; }
+
+
+li {cursor:pointer;}
+
+
+.button {
+	display: table-cell;
+	height: 30px;
+	min-width: 130px;
+	vertical-align: middle;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.status1 {
+	background-color: #DFD !important;
+	cursor: pointer
+}
+
+.status2 {
+	background-color: #FFD !important;
+	cursor: pointer
+}
+.status3 {
+	background-color: #FDD !important;
+	cursor: pointer
+}
+
+.status4 {
+	background-color: #DDF !important;
+	cursor: pointer
+}
+
+.status5 {
+	background-color: #DDD !important;
+	cursor: pointer
+}
+
+
+
+
+.loader {
+	background: transparent url(./images/ajax-loader-red.gif) center
+		no-repeat !important;
+	color: #000;
+}
+
+
+
+
+
+.edit {
+	background-color: #BFF2D0 !important;
+	cursor: pointer
+}
+
+.del {
+	background-color: #FF8080 !important;
+	cursor: pointer
+}
+
+.get {
+	cursor: pointer;
+	text-decoration : none;
+	color: #808080;
+}
+
+.add {
+	background-color: #6FB7FF !important;
+	cursor: pointer
+}
+
+
+
+.pointer {
+	cursor: pointer
+}
